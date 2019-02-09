@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_cities1"
+            android:layout_width="132dp"
+            android:layout_height="123dp"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="213dp" />
+
+        <ImageView
+            android:id="@+id/image_cities2"
+            android:layout_width="145dp"
+            android:layout_height="129dp"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="213dp" />
+
+        <ImageView
+            android:id="@+id/image_cities3"
+            android:layout_width="176dp"
+            android:layout_height="160dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="406dp" />
+
+        <ImageView
+            android:id="@+id/image_cities4"
+            android:layout_width="189dp"
+            android:layout_height="145dp"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="406dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</FrameLayout>
